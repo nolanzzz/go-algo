@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	pattern := []byte("ABABC")
+	pattern := []byte("A")
 	text := []byte("ABABABABCAIABABCSS")
 	// 1. 生成pattern的前缀表
 	prefix := prefixTable(pattern)
@@ -21,6 +21,11 @@ func kmpSearch(pattern, text []byte) {
 		if i == m-1 && pattern[i] == text[j] {
 			fmt.Println("Found a match at: ", j-i)
 			i = prefix[i]
+			if m == 1 {
+				i++
+				j++
+				continue
+			}
 		}
 		if pattern[i] == text[j] {
 			i++
