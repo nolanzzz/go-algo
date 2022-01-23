@@ -1,5 +1,6 @@
 # GoAlgo
-本仓库包含用Golang解决的Leetcode算法题题解以及笔记，学习路线主要跟随[代码随想录](https://github.com/youngyangyang04/leetcode-master)<br>
+本仓库包含用Golang解决的Leetcode算法题题解以及笔记，学习路线主要跟随[代码随想录](https://github.com/youngyangyang04/leetcode-master)
+
 题目以数据结构或算法类型来分类，目录如下：
 
 ## 数组
@@ -170,7 +171,8 @@
   - 回溯模板，res，path，start递归，还需要sum记录总和
 - [17.电话号码的字母组合](Backtracking/17电话号码的字母组合.md)
   - 回溯模板，res，path，index递归，数组来储存数字与字母的映射
-
+- [39.组合总和](Backtracking/39组合总和.md)
+  - 回溯模板，res，path，index递归；由于可重复，所以每次回溯时用i而不是i+1
 ## 排序
 - [快速排序](Sorting/快速排序.md)
 
