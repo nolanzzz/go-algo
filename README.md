@@ -173,12 +173,12 @@
   - 回溯模板，res，path，index递归，数组来储存数字与字母的映射
 - [39.组合总和](Backtracking/39组合总和.md)
   - 回溯模板，res，path，index递归；由于可重复，回溯时用i而不是i+1
-  - 剪枝
+  - 若先排序数组，可以剪枝
 - [40.组合总和II](Backtracking/40组合总和II.md)
   - 回溯模板，res，path，index递归；不可重复，回溯时用i+1
   - 需要去重操作，首先要排序数组
   - 然后递归逻辑中每次要去重（candidates[i] == candidates[i-1])
-  - 剪枝
+  - 可以剪枝
 ## 排序
 - [快速排序](Sorting/快速排序.md)
 
