@@ -168,6 +168,8 @@
   - 回溯模板，res，path，start递归
 - [216.组合总和III](Backtracking/216组合总和III.md)
   - 回溯模板，res，path，start递归，还需要sum记录总和
+- [17.电话号码的字母组合](Backtracking/17电话号码的字母组合.md)
+  - 回溯模板，res，path，index递归，数组来储存数字与字母的映射
 
 ## 排序
 - [快速排序](Sorting/快速排序.md)
