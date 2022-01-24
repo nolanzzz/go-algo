@@ -186,6 +186,11 @@
   - 回溯模板，res，path，start递归
   - 判断回文，不符合时continue
   - 终止条件为到达末尾
+- [93.复原IP地址](Backtracking/93复原IP地址.md)
+  - 回溯模板，res，path，start递归
+  - 判断每段地址是否合法
+  - 终止条件为1.到达末尾；2.path有四段地址
+
 
 ## 排序
 - [快速排序](Sorting/快速排序.md)
