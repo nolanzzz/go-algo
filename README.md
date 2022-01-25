@@ -165,17 +165,22 @@
 - [理论基础](Backtracking/notes.md)
 
 ### 组合问题
+- 组合问题其实也是一种子集问题
 - [77.组合](Backtracking/77组合.md)
   - 回溯模板，res，path，start递归
 - [216.组合总和III](Backtracking/216组合总和III.md)
-  - 回溯模板，res，path，start递归，还需要sum记录总和
+  - 回溯模板，res，path，start递归
+  - 还需要sum记录总和
 - [17.电话号码的字母组合](Backtracking/17电话号码的字母组合.md)
-  - 回溯模板，res，path，index递归，数组来储存数字与字母的映射
+  - 回溯模板，res，path，index递归
+  - 数组来储存数字与字母的映射
 - [39.组合总和](Backtracking/39组合总和.md)
-  - 回溯模板，res，path，index递归；由于可重复，回溯时用i而不是i+1
+  - 回溯模板，res，path，index递归
+  - 由于可重复，回溯时用i而不是i+1
   - 若先排序数组，可以剪枝
 - [40.组合总和II](Backtracking/40组合总和II.md)
-  - 回溯模板，res，path，index递归；不可重复，回溯时用i+1
+  - 回溯模板，res，path，index递归
+  - 不可重复，回溯时用i+1
   - 需要去重操作，首先要排序数组
   - 然后递归逻辑中每次要去重（candidates[i] == candidates[i-1])
   - 可以剪枝
@@ -207,7 +212,8 @@
   - 需用used来记录本层用过的数字，以免重复搜索同样的数字开头的子序列
 
 ### 排列问题
-- 排列问题是有序的，所以每次循环都要从0而不需要从start开始
+- 排列问题是有序的，所以每次循环都要从0开始，不需要start参数
+- 去重时需要用used来记录
 - [46.全排列](Backtracking/46全排列.md)
   - 回溯模板，res，path
   - used记录出现过的元素，同样要回溯
