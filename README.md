@@ -1,5 +1,5 @@
 # GoAlgo
-本仓库包含用Golang解决的Leetcode算法题题解以及笔记，学习路线主要跟随[代码随想录](https://github.com/youngyangyang04/leetcode-master)
+>本仓库包含用Golang解决的Leetcode算法题题解以及笔记，学习路线主要跟随[代码随想录](https://github.com/youngyangyang04/leetcode-master)
 
 题目以数据结构或算法类型来分类，目录如下：
 
