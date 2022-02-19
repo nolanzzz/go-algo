@@ -63,6 +63,7 @@
 - [239.滑动窗口最大值](StackQueue/239滑动窗口最大值.md)
 - [347.前k个高频元素](StackQueue/347前k个高频元素.md)
 - [1047.删除字符串中的所有相邻重复项](StackQueue/1047删除字符串中的所有相邻重复项.md)
+- [71.简化路径](StackQueue/71简化路径.md)
 
 ## 字符串
 - [28.实现strStr()](String/28实现strStr().md)
