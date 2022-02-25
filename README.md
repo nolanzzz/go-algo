@@ -427,3 +427,4 @@
 - [辗转相除法解决所有进制转换问题](other_problems/number_conversion/辗转相除法模板.md)
 - [504.七进制数](other_problems/number_conversion/504七进制数.md)
 - [168.Excel表列名称](other_problems/number_conversion/168Excel表列名称.md)
+- [171.Excel表列序号](other_problems/number_conversion/171Excel表列序号.md)
