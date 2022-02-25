@@ -425,4 +425,4 @@
 
 ### 进制转换问题
 - [辗转相除法解决所有进制转换问题](other_problems/number_conversion/辗转相除法模板.md)
-- 
+- [504.七进制数](other_problems/number_conversion/504七进制数.md)
