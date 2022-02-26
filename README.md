@@ -433,3 +433,4 @@
 
 ### 数学问题
 - [HJ6.质数因子](other_problems/math/HJ6质数因子.md)
+- [HJ7.取近似值](other_problems/math/HJ7取近似值.md)
