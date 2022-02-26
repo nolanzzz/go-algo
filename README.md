@@ -430,3 +430,6 @@
 - [168.Excel表列名称](other_problems/number_conversion/168Excel表列名称.md)
 - [171.Excel表列序号](other_problems/number_conversion/171Excel表列序号.md)
 - [HJ5.进制转换](other_problems/number_conversion/HJ5进制转换.md)
+
+### 数学问题
+- [HJ6.质数因子](other_problems/math/HJ6质数因子.md)
