@@ -83,6 +83,7 @@
 - [剑指58II.左旋转字符串](string/剑指58II左旋转字符串.md)
 - [HJ4.字符串分隔](string/HJ4字符串分隔.md)
 - [HJ14.字符串排序](string/HJ14字符串排序.md)
+- [HJ17.坐标移动](string/HJ17坐标移动.md)
 
 ## 二叉树
 
