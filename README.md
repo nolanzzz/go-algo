@@ -424,7 +424,13 @@
     - 初始化：dp[i][0]=0; 当j>=nums[0]时dp[0][j]=nums[0]
     - 两层遍历
     - dp[i][j] = max(dp[i-1][j], dp[i-1][j-nums[i]]+nums[i])
-
+  - [1049.最后一块石头的重量II](dp/1049最后一块石头的重量II.md)
+    - 一维数组
+      - dp[j]：容量为j的背包能放的最大数值和
+      - dp[j] = max(dp[j], dp[j-stones[i]]+stones[i])
+    - 二维数组
+      - dp[i][j]：0-i下标的石头范围内，能装入容量为j的最大重量
+      - dp[i][j] = max(dp[i-1][j], dp[i-1][j-stones[i]]+stones[i])
 ## 排序
 - [快速排序](sort/快速排序.md)
 
